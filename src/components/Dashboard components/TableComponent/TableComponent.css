@@ -1,0 +1,156 @@
+.ma-table-container {
+    width: 95%;
+    max-width: 1596px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(18, 18, 18, 0.4);
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.ma-table-header {
+    margin-bottom: 35px;
+    padding: 0 15px;
+
+}
+
+.ma-table-header h1 {
+    font-size: 34px;
+    font-weight: 800;
+    background: linear-gradient(135deg, var(--primary-color) 0%, #ffffff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ma-btn-add {
+    padding: 12px 28px;
+    border-radius: 14px;
+    font-weight: 700;
+    font-size: 14px;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.ma-table-wrapper {
+    width: 100%;
+    padding-bottom: 10px;
+}
+.ma-table {
+    width: 100%;
+    border-spacing: 0 12px;
+    border-collapse: separate;
+}
+
+.ma-table thead th {
+    padding: 15px 25px;
+    color: #666;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: left;
+}
+
+.ma-table tbody tr {
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 16px;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+}
+
+.ma-table td {
+    padding: 22px 25px;
+    color: #d1d1d1;
+    font-size: 15px;
+}
+
+.ma-table td:first-child {
+    border-radius: 16px 0 0 16px;
+}
+.ma-table td:last-child {
+    border-radius: 0 16px 16px 0;
+}
+
+.ma-table tbody tr:hover {
+    background: rgba(255, 255, 255, 0.05);
+    transform: translateX(8px);
+    box-shadow: -4px 0 0 var(--primary-color);
+}
+
+.ma-table tbody tr:hover td {
+    color: var(--text-light);
+}
+
+.ma-input-edit {
+    width: 100%;
+    padding: 10px 15px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    color: var(--primary-color);
+    outline: none;
+}
+
+.ma-input-edit:focus {
+    background: rgba(0, 0, 0, 0.5);
+    border-color: var(--primary-color);
+    box-shadow: 0 0 15px rgba(202, 255, 51, 0.1),
+                inset 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.ma-actions {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-start;
+}
+
+.ma-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    transition: all 0.2s ease;
+}
+
+.ma-btn:hover img {
+    opacity: 1;
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 1px var( --bg-main));
+}
+
+.ma-no-table {
+    padding: 40px;
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.01);
+    border-radius: 20px;
+    border: 5px dashed rgba(255, 255, 255, 0.05);
+    width: 80%;
+    margin: 60px auto;
+
+}
+
+.ma-empty-state {
+    padding: 40px !important;
+    text-align: center;
+    color: #555 !important;
+    font-style: italic;
+
+}
+
+.ma-new-row {
+    background: rgba(114, 114, 114, 0.3) !important;
+}
+
+
+
+@media (max-width: 1440px) {
+.ma-table-container {
+    max-width: 1280px;
+    width: 95%;
+}
+}

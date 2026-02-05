@@ -1,0 +1,230 @@
+.mar-protectYou-section {
+    margin: 150px auto;
+    max-width: 1596px;
+    width: 95%;
+
+}
+
+.mar-ProtectYou-Title h1 {
+    font-size: 48px;
+}
+
+.mar-ProtectYou-Title p {
+    margin-top: 14px !important;
+    max-width: 1306px !important;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.mar-protect-wrapper {
+    position: relative;
+    margin-top: 117.5px !important;
+}
+
+.mar-protect-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding-top: 82px;
+    z-index: 10;
+    max-width: 1406px;
+    margin: 0 auto;
+}
+
+.backGround {
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(106.06deg, rgba(202, 255, 51, 0.05) -29.45%, rgba(202, 255, 51, 0) 27.86%),
+        linear-gradient(267.5deg, rgba(28, 28, 28, 0.8) 40.67%, rgba(28, 28, 28, 0) 99.81%);
+    z-index: -1;
+    border-radius: 70px;
+}
+
+.mar-card {
+    box-sizing: border-box;
+    padding: 50px;
+    gap: 24px;
+    max-width: 688px;
+
+    background: linear-gradient(106.06deg, rgba(202, 255, 51, 0.05) -29.45%, rgba(202, 255, 51, 0) 27.86%), linear-gradient(267.5deg, #1C1C1C 40.67%, rgba(28, 28, 28, 0) 99.81%), url(asfalt-light.png);
+    background-blend-mode: normal, normal, screen;
+    border: 1px solid #262626;
+    border-radius: 20px;
+}
+
+.firstSection-card {
+    display: flex;
+    align-items: center;
+    max-width: 590px;
+    gap: 24px;
+    margin: 0 auto;
+}
+
+.img-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    width: 98px;
+    height: 98px;
+    background: linear-gradient(180deg, rgba(202, 255, 51, 0.05) 0%, rgba(202, 255, 51, 0) 100%);
+    border-radius: 70px;
+}
+
+.img-card img {
+    box-sizing: border-box;
+    padding: 20px;
+    gap: 10px;
+    max-width: 74px;
+    height: 74px;
+    background: linear-gradient(180deg, rgba(202, 255, 51, 0.1) -66.22%, rgba(202, 255, 51, 0) 85.46%);
+    border-radius: 50%;
+}
+
+.firstSection-card h1 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.mar-card p {
+    max-width: 588px;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 24px;
+    line-height: 150%;
+    color: #B3B3B3;
+}
+
+/* 1440 */
+@media (max-width: 1440px) {
+    .mar-protectYou-section {
+        margin: 120px auto;
+        max-width: 1280px;
+
+    }
+
+    .mar-ProtectYou-Title h1 {
+        font-size: 38px;
+    }
+
+    .mar-ProtectYou-Title p {
+        margin-top: 10px !important;
+        max-width: 1030px !important;
+        font-size: 16px;
+    }
+
+    .mar-protect-wrapper {
+        margin-top: 58px !important;
+    }
+
+    .mar-protect-grid {
+        gap: 20px;
+        padding-top: 62px;
+        max-width: 1120px;
+    }
+
+
+    .mar-card {
+        padding: 40px;
+        gap: 20px;
+        max-width: 688px;
+
+    }
+
+    .firstSection-card {
+        gap: 14px;
+        margin: 0 auto;
+    }
+
+    .img-card {
+        width: 76px;
+        height: 76px;
+        border-radius: 50%;
+    }
+
+    .firstSection-card h1 {
+        font-size: 20px;
+
+    }
+
+    .mar-card p {
+        max-width: 470px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .img-card img {
+        max-width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+
+    .backGround {
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+}
+
+/* 1250 */
+@media (max-width: 1250px) {
+    .backGround {
+        display: none;
+    }
+}
+
+/* 992 */
+@media (max-width: 992px) {
+    .mar-protectYou-section {
+    margin: 80px auto;
+    }
+    .mar-protect-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .mar-ProtectYou-Title h1 {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .mar-ProtectYou-Title p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .backGround {
+        display: none;
+    }
+
+    .mar-card {
+        width: 95%;
+        margin: 0 auto;
+        padding: 24px;
+    }
+
+    .firstSection-card h1 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .mar-card p {
+        font-size: 14px;
+        margin-top: 22px;
+
+    }
+
+    .img-card {
+        width: 68px;
+        height: 68px;
+    }
+
+    .img-card img {
+        max-width: 52px;
+        height: 52px;
+        padding: 14px;
+    }
+}

@@ -1,0 +1,39 @@
+.hs-jo-title {
+    font-size: 48px;
+    margin-bottom: 14px;
+}
+
+.hs-jo-description {
+    font-size: 18px;
+    font-weight: 300;
+    max-width: 1296px;
+}
+
+@media (max-width: 1440px) {
+
+
+    .hs-jo-title {
+        font-size: 38px;
+
+    }
+
+    .hs-jo-description {
+        max-width: 1030px;
+        font-size: 16px
+    }
+}
+
+
+@media (max-width: 992px) {
+    .hs-jo-header-text {
+        text-align: center;
+    }
+
+    .hs-jo-title {
+        font-size: 28px;
+    }
+
+    .hs-jo-description {
+        font-size: 14px;
+    }
+}

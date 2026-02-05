@@ -1,0 +1,148 @@
+.hs-job-card-container {
+    max-width: 783px;
+    background-color: var(--light-bg);
+    border-radius: 16px;
+    padding: 50px;
+    align-items: flex-start;
+}
+
+.hs-job-card-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+.hs-job-card-tags {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.hs-job-tag {
+    color: var(--text-description);
+    background-color: var(--bg-main);
+    padding: 8px 16px;
+    border-radius: 68px;
+    font-size: 18px;
+}
+
+.hs-job-card-section {
+    margin-top: 40px;
+
+    .hs-sub-title {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .hs-sub-title-desc {
+        font-size: 18px;
+        font-weight: 300;
+        color: var(--text-description);
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+}
+
+.hs-jo-requirements {
+    li {
+        display: flex;
+        gap: 12px;
+        margin-bottom: 15px;
+        color: var(--text-description);
+    }
+}
+
+.hs-apply-btn {
+    background-color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text-button-dark-);
+    padding: 16px 30px;
+    border-radius: 82px;
+    width: fit-content;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-top: 50px;
+
+    &:hover {
+        background-color: transparent;
+        color: var(--primary-color);
+    }
+}
+
+@media (max-width: 1440px) {
+
+    .hs-job-card-container {
+        max-width: 630px;
+        padding: 30px;
+    }
+
+    .hs-job-card-title {
+        font-size: 24px;
+    }
+
+    .hs-job-card-section {
+        max-width: 550px;
+
+        .hs-sub-title-desc {
+            font-size: 16px;
+        }
+    }
+
+    .hs-job-card-tags {
+        .hs-job-tag {
+            font-size: 16px;
+            padding: 8px 16px;
+        }
+
+    }
+
+    .hs-apply-btn {
+        margin-top: 40px;
+    }
+}
+
+
+@media (max-width: 992px) {
+
+    .hs-job-card-container {
+        width: 100%;
+        max-width: 100%;
+        padding: 24px;
+    }
+
+    .hs-job-card-tags {
+        .hs-job-tag {
+            font-size: 14px;
+            padding: 6px 14px;
+        }
+    }
+
+    .hs-job-card-section {
+        .hs-sub-title-desc {
+            font-size: 14px;
+        }
+    }
+
+    .hs-job-card-section {
+        margin-top: 30px;
+    }
+
+    .hs-job-card-section {
+        .hs-sub-title {
+            font-size: 20px;
+        }
+
+    }
+
+    .hs-apply-btn {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        font-size: 14px;
+        padding: 12px 20px;
+    }
+}

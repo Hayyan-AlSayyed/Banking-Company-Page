@@ -1,0 +1,26 @@
+html, body, a, button, li, [role="button"] {
+  cursor: none !important;
+}
+
+.custom-cursor-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+.cursor-outline {
+  border: 2px solid var(--primary-color);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+
+}
+
+.cursor-dot {
+  width: 15px;
+  height: 15px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+}
