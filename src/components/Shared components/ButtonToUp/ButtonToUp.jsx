@@ -23,7 +23,7 @@ const ButtonToUp = () => {
         onClick={scrollToTop}
         className={isVisible ? 'visible' : ''}
       >
-        <img src="/Images/HomePage/ArrowUpWarm.svg" alt="" className='UpArrow' />
+        <img src="/Banking-Company-Page/Images/HomePage/ArrowUpWarm.svg" alt="" className='UpArrow' />
       </button>
     </div>
   );

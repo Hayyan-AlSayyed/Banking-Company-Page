@@ -46,7 +46,7 @@ const Slider = ({ children, totalItems }) => {
             <div className="ma-container-slider">
                 <div className="ma-fcontrols">
                     <button onClick={prevSlide} disabled={currentIndex === 0} className='ma-leftbtn border'>
-                        <img src="/Images/HomePage/Left Arrow.png" alt="prevArrow" />
+                        <img src="/Banking-Company-Page/Images/HomePage/LeftArrow.png" alt="prevArrow" />
                     </button>
                 </div>
                 <div className="ma-slider-wrapper-parent">
@@ -72,7 +72,7 @@ const Slider = ({ children, totalItems }) => {
                 </div>
                 <div className='ma-scontrols'>
                     <button onClick={nextSlide} disabled={currentIndex >= totalItems - visibleCards} className='ma-rightbtn border'>
-                        <img src="/Images/HomePage/Right Arrow.png" alt="" />
+                        <img src="/Banking-Company-Page/Images/HomePage/RightArrow.png" alt="" />
                     </button>
                 </div>
             </div>

@@ -1,10 +1,10 @@
 //a data file containing object arrays
 const productData = [{
-    icon: "/Banking-Company-Page/Images/HomePage/Managing Personal Finances.png",
+    icon: "/Banking-Company-Page/Images/HomePage/ManagingPersonalFinances.png",
     tittle: "Managing Personal Finances",
 },
 {
-    icon: "/Banking-Company-Page/Images/HomePage/Saving for The Future.png",
+    icon: "/Banking-Company-Page/Images/HomePage/SavingforTheFuture.png",
     tittle: "Saving for the Future",
 },
 {
@@ -12,24 +12,24 @@ const productData = [{
     tittle: "Homeownership",
 },
 {
-    icon: "/Banking-Company-Page/Images/HomePage/Education Funding.png",
+    icon: "/Banking-Company-Page/Images/HomePage/EducationFunding.png",
     tittle: "Education Funding",
 },
 ]
 const businessData = [{
-    icon: "/Banking-Company-Page/Images/HomePage/Startups and Entrepreneurs.png",
+    icon: "/Banking-Company-Page/Images/HomePage/StartupsandEntrepreneurs.png",
     tittle: "Startups and Entrepreneurs",
 },
 {
-    icon: "/Banking-Company-Page/Images/HomePage/Cash Flow Management.png",
+    icon: "/Banking-Company-Page/Images/HomePage/CashFlowManagement.png",
     tittle: "Cash Flow Management",
 },
 {
-    icon: "/Banking-Company-Page/Images/HomePage/Business Expansion.png",
+    icon: "/Banking-Company-Page/Images/HomePage/BusinessExpansion.png",
     tittle: "Business Expansion",
 },
 {
-    icon: "/Banking-Company-Page/Images/HomePage/Payment Solutions.png",
+    icon: "/Banking-Company-Page/Images/HomePage/PaymentSolutions.png",
     tittle: "Payment Solutions",
 },
 ]
