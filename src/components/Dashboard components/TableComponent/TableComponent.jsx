@@ -2,8 +2,7 @@ import { useEffect, useState } from "react";
 import { tableSchemas } from "../dashboardData";
 import "./TableComponent.css";
 // import { h1 } from "framer-motion/client";
-import Delete from "/Images/Dashboard/Delete.png"
-import Cancel from "./Images/Dashboard/Cancel.png"
+
 
 /**
  * TableComponent
@@ -247,7 +246,7 @@ const TableComponent = ({ activePage, activeSection }) => {
                         className="ma-btn ma-btn-cancel"
                         onClick={handleCancel}
                       >
-                        <img src={Cancel} alt="" />
+                        <img src="./Images/Dashboard/Cancel.png" alt="" />
 
                       </button>
                     </>
@@ -263,7 +262,7 @@ const TableComponent = ({ activePage, activeSection }) => {
                         className="ma-btn ma-btn-delete"
                         onClick={() => handleDelete(row.id)}
                       >
-                        <img src={Delete} alt="" />
+                        <img src="/Images/Dashboard/Delete.png" alt="" />
                       </button>
                     </>
                   )}

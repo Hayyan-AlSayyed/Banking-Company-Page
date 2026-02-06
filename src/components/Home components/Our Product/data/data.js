@@ -1,10 +1,10 @@
 
-import ourproduct1st from "Images/HomePage/Checking Account.png";
-import ourproduct2nd from "Images/HomePage/Saving Account.png";
-import ourproduct3rd from "Images/HomePage/Loans and Mortgages.png";
-import ourproduct4th from "Images/HomePage/check.png";
-import ourproduct5th from "Images/HomePage/save.png";
-import ourproduct6th from "Images/HomePage/loans.png";
+import ourproduct1st from "./Images/HomePage/CheckingAccount.png";
+import ourproduct2nd from "./Images/HomePage/SavingAccount.png";
+import ourproduct3rd from "./Images/HomePage/LoansandMortgages.png";
+import ourproduct4th from "./Images/HomePage/check.png";
+import ourproduct5th from "./Images/HomePage/save.png";
+import ourproduct6th from "./Images/HomePage/loans.png";
 
 export const OurProductsHeaderData =
 {
@@ -13,7 +13,7 @@ export const OurProductsHeaderData =
   description: "Discover a range of comprehensive and customizable banking products at YourBank, designed to suit your unique financial needs and aspirations",
   individualBtn: "For Individuals",
   businessesBtn: "For Businesses"
-}
+};
 
 
 
@@ -21,7 +21,7 @@ export const OurProductsData = [
   {
     id: 1,
     category: "individual",
-    icon: ourproduct1st
+    icon: ourproduct1st,
     title: "Checking Accounts",
     description: "Enjoy easy and convenient access to your funds with our range of checking account options. Benefit from features such as online and mobile banking, debit cards, and free ATM access."
   },
