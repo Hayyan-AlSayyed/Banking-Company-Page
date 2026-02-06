@@ -9,9 +9,9 @@ import { fadeIn, staggerContainer, btnAnimation, iconHover } from "../Animation/
 
 // Social icons data
 const SOCIAL_ICONS = [
-  { id: 1, src: "/Images/LoginPage/Google.png", alt: "Google", url: "https://www.google.com/" },
-  { id: 2, src: "/Images/LoginPage/Facebook.png", alt: "Facebook", url: "https://www.facebook.com/" },
-  { id: 3, src: "/Images/LoginPage/Apple.png", alt: "Apple", url: "https://www.apple.com/" },
+  { id: 1, src: "/Banking-Company-Page/Images/LoginPage/Google.png", alt: "Google", url: "https://www.google.com/" },
+  { id: 2, src: "/Banking-Company-Page/Images/LoginPage/Facebook.png", alt: "Facebook", url: "https://www.facebook.com/" },
+  { id: 3, src: "/Banking-Company-Page/Images/LoginPage/Apple.png", alt: "Apple", url: "https://www.apple.com/" },
 ];
 
 export default function SharedForm({ title, description, fields, submitText, secondaryText }) {
@@ -34,7 +34,7 @@ export default function SharedForm({ title, description, fields, submitText, sec
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.5, ease: "easeOut" }}
 
-          src="/Images/LoginPage/Main Texture.png"
+          src="/Banking-Company-Page/Images/LoginPage/MainTexture.png"
           className="mh-mainTexture"
           alt=""
         />
@@ -65,7 +65,7 @@ export default function SharedForm({ title, description, fields, submitText, sec
                   />
                   <motion.img
                     whileTap={{ scale: 1.5 }}
-                    src="/Images/LoginPage/Show Password.png"
+                    src="/Banking-Company-Page/Images/LoginPage/ShowPassword.png"
                     alt="toggle password"
                     className="mh-password-eye"
                     onClick={() => setShowPassword(prev => !prev)}
