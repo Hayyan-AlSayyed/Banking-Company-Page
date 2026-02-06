@@ -56,7 +56,7 @@ export const OurProductsData = [
   {
     id: 6,
     category: "businesses",
-    icon: { ourproduct6th },
+    icon: ourproduct6th,
     title: "Loans and Mortgages - Businesses",
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex harum exercitationem sapiente suscipit ipsum repellat eligendi, accusamus vitae voluptatem! Praesentium illo autem dolor perferendis ab. Provident dolore blanditiis atque"
   },
