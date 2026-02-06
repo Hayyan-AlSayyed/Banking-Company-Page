@@ -65,7 +65,7 @@ export default function SharedForm({ title, description, fields, submitText, sec
                   />
                   <motion.img
                     whileTap={{ scale: 1.5 }}
-                    src="/Banking-Company-Page/Images/LoginPage/ShowPassword.png"
+                    src="/Banking-Company-Page/Images/SignUpPage/ShowPassword.png"
                     alt="toggle password"
                     className="mh-password-eye"
                     onClick={() => setShowPassword(prev => !prev)}
