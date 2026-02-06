@@ -1,10 +1,10 @@
 
-import ourproduct1st from "/Images/HomePage/Checking Account.png";
-import ourproduct2nd from "/Images/HomePage/Saving Account.png";
-import ourproduct3rd from "/Images/HomePage/Loans and Mortgages.png";
-import ourproduct4th from "/Images/HomePage/check.png";
-import ourproduct5th from "/Images/HomePage/save.png";
-import ourproduct6th from "/Images/HomePage/loans.png";
+import ourproduct1st from "Images/HomePage/Checking Account.png";
+import ourproduct2nd from "Images/HomePage/Saving Account.png";
+import ourproduct3rd from "Images/HomePage/Loans and Mortgages.png";
+import ourproduct4th from "Images/HomePage/check.png";
+import ourproduct5th from "Images/HomePage/save.png";
+import ourproduct6th from "Images/HomePage/loans.png";
 
 export const OurProductsHeaderData =
 {
