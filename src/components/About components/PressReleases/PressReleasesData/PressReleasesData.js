@@ -11,7 +11,7 @@ export const PressReleasesHeaderData = {
 export const PressReleasesCardData = [
   {
     id: 1,
-    image: "/Images/AboutPage/Press Releases1.webp",
+    image: "/Banking-Company-Page/Images/AboutPage/PressReleases1.webp",
     title: "YourBank Launches New Rewards Program to Enhance Customer Loyalty and Satisfaction",
     location: "India",
     date: "06/11/2024",
@@ -19,7 +19,7 @@ export const PressReleasesCardData = [
   },
   {
     id: 2,
-    image: "/Images/AboutPage/Press Releases2.webp",
+    image: "/Banking-Company-Page/Images/AboutPage/PressReleases2.webp",
     title: "YourBank Expands Branch Network with Opening of New Location in Chennai",
     location: "India",
     date: "12/11/2024",
@@ -27,7 +27,7 @@ export const PressReleasesCardData = [
   },
   {
     id: 3,
-    image: "/Images/AboutPage/Press Releases3.webp",
+    image: "/Banking-Company-Page/Images/AboutPage/PressReleases3.webp",
     title: "YourBank Partners with Local Nonprofit to Support Financial Education Initiatives",
     location: "India",
     date: "24/12/2024",
@@ -35,7 +35,7 @@ export const PressReleasesCardData = [
   },
   {
     id: 4,
-    image: "/Images/AboutPage/Press Releases4.webp",
+    image: "/Banking-Company-Page/Images/AboutPage/PressReleases4.webp",
     title: "YourBank Launches Sustainable Banking Initiative to Promote Environmental Responsibility",
     location: "India",
     date: "28/12/2024",
