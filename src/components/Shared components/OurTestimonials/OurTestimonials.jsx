@@ -63,7 +63,7 @@ const OurTestimonials = () => {
                             {filteredData.map((item) => (
                                 <TestimonialCard
                                     key={item.id}
-                                    image="/Images/HomePage/Qutation.png"
+                                    image="/Banking-Company-Page/Images/HomePage/Qutation.png"
                                     clientOpinen={item.clientOpinen}
                                     clientName={item.clientName}
                                 />

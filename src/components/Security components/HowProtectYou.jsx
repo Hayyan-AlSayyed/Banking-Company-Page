@@ -28,7 +28,7 @@ const HowProtectYou = () => {
 
                 <div className="mar-protect-wrapper">
                     <div className="backGround">
-                        <img src="/Images/SecurityPage/Protect Background Image.webp" alt="backGround" />
+                        <img src="/Banking-Company-Page/Images/SecurityPage/Protect Background Image.webp" alt="backGround" />
                     </div>
 
 

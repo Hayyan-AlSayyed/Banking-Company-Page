@@ -24,7 +24,7 @@ function App() {
     <>
       {/* Persistent decorative background texture fixed in the corner across all pages. */}
       <div className="ma-hero-background-abstract">
-        <img src="\Images\HomePage\Main Texture.png" className="MainTexture" />
+        <img src="/Banking-Company-Page/Images/HomePage/MainTexture.png" className="MainTexture" />
       </div>
 
       <Cursor />
@@ -34,7 +34,7 @@ function App() {
         btn={btn}
         smallBtn={stroke}
       />
-<ScrollToTop />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/careers" element={<Careers />} />
