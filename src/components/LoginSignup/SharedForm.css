@@ -17,7 +17,7 @@
 background-color: #1a1a1a;
   background-image:
     linear-gradient(rgba(26, 26, 26, 0.9), rgba(26, 26, 26, 0.9)),
-    url("/Images/LoginPage/Texture Background.webp");
+    url("/Banking-Company-Page/Images/LoginPage/TextureBackground.webp");
   background-blend-mode: luminosity;
   background-size: cover;
   background-position: center;
