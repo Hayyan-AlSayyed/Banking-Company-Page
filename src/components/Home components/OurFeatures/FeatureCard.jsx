@@ -27,7 +27,7 @@ const FeatureCard = ({ title, description }) => {
         <motion.img
           variants={arrowMotion}
 
-          src="/Images/HomePage/Arrow.png" className="mh-arrow" alt="" />
+          src="/Banking-Company-Page/Images/HomePage/Arrow.png" className="mh-arrow" alt="" />
       </div>
       <p>{description}</p>
     </motion.div>

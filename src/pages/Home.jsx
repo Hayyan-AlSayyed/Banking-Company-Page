@@ -12,7 +12,7 @@ const Home = () => {
     <>
       <section>
         <div className="ma-hero-background-abstract">
-          <img src="\Images\HomePage\Main Texture.png" className="MainTexture" />
+          <img src="/Banking-Company-Page/Images/HomePage/MainTexture.png" className="MainTexture" />
         </div>
         <HomeHero />
         <ProductCard />

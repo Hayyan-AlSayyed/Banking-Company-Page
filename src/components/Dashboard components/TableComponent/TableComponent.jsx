@@ -181,7 +181,7 @@ const TableComponent = ({ activePage, activeSection }) => {
       <div className="ma-table-header flex-between">
         <h1>Admin Control Center</h1>
         <button className="ma-btn ma-btn-add" onClick={handleAddNew}>
-          <img src="./Images/Dashboard/Add.png" alt="" />
+          <img src="/Banking-Company-Page/Images/Dashboard/Add.png" alt="" />
           <h2>
             Add a New Row
           </h2>
@@ -239,14 +239,14 @@ const TableComponent = ({ activePage, activeSection }) => {
                         className="ma-btn ma-btn-save"
                         onClick={handleSave}
                       >
-                        <img src="/Images/Dashboard/Save.png" alt="" />
+                        <img src="/Banking-Company-Page/Images/Dashboard/Save.png" alt="" />
 
                       </button>
                       <button
                         className="ma-btn ma-btn-cancel"
                         onClick={handleCancel}
                       >
-                        <img src="./Images/Dashboard/Cancel.png" alt="" />
+                        <img src="/Banking-Company-Page/Images/Dashboard/Cancel.png" alt="" />
 
                       </button>
                     </>
@@ -256,13 +256,13 @@ const TableComponent = ({ activePage, activeSection }) => {
                         className="ma-btn ma-btn-edit"
                         onClick={() => handleEdit(row)}
                       >
-                        <img src="./Images/Dashboard/Edit.png" alt="" />
+                        <img src="/Banking-Company-Page/Images/Dashboard/Edit.png" alt="" />
                       </button>
                       <button
                         className="ma-btn ma-btn-delete"
                         onClick={() => handleDelete(row.id)}
                       >
-                        <img src="/Images/Dashboard/Delete.png" alt="" />
+                        <img src="/Banking-Company-Page/Images/Dashboard/Delete.png" alt="" />
                       </button>
                     </>
                   )}
@@ -289,14 +289,14 @@ const TableComponent = ({ activePage, activeSection }) => {
                     className="ma-btn ma-btn-save"
                     onClick={handleSaveNew}
                   >
-                    <img src="/Images/Dashboard/Save.png" alt="" />
+                    <img src="/Banking-Company-Page/Images/Dashboard/Save.png" alt="" />
 
                   </button>
                   <button
                     className="ma-btn ma-btn-cancel"
                     onClick={handleCancelNew}
                   >
-                    <img src="./Images/Dashboard/Cancel.png" alt="" />
+                    <img src="/Banking-Company-Page/Images/Dashboard/Cancel.png" alt="" />
                   </button>
                 </td>
               </tr>
