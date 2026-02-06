@@ -47,14 +47,14 @@ const JobCard = ({ job }) => {
                 key={index} className='hs-sub-title-desc'>
                 <motion.img
                   variants={iconHover}
-                  src="/Images/CareersPage/Bag Icon.png" alt="icon" className="hs-requirements-icon" />
+                  src="/Banking-Company-Page/Images/CareersPage/BagIcon.png" alt="icon" className="hs-requirements-icon" />
                 {requirement}
               </motion.li>
             ))
           ) : (
             job.requirements?.split(",").map((req, index) => (
               <li key={index} className='hs-sub-title-desc'>
-                <img src="/Images/CareersPage/Bag Icon.png" alt="icon" className="hs-requirements-icon" />
+                <img src="/Banking-Company-Page/Images/CareersPage/BagIcon.png" alt="icon" className="hs-requirements-icon" />
                 {req.trim()}
               </li>
             ))

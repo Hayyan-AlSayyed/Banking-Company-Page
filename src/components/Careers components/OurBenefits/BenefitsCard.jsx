@@ -14,7 +14,7 @@ const BenefitsCard = ({ image, title, description }) => {
       viewport={{ once: true }}
 
       className="mh-card">
-      <img src="/Images/CareersPage/background.png" alt="" className="mh-card-bachground" />
+      <img src="/Banking-Company-Page/Images/CareersPage/background.png" alt="" className="mh-card-bachground" />
       <div className="mh-card-head">
         <span className="mh-card-icon">
           <motion.img
